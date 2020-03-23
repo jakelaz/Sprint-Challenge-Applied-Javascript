@@ -30,7 +30,7 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
     objectArray.forEach(([key, value]) => {
         value.forEach( item => {
-            console.log(item)
+            //console.log(item)
             let articleCard = cardCreator(item)
             cardsParent.appendChild(articleCard)
         })
